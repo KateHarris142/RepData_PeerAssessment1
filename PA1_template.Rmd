@@ -226,7 +226,7 @@ xyplot(av_steps ~ interval | Day, data = Full_Intervals, layout = c(1,2),type='l
 ```
 
 
-Looking at this plot, you can see, assuming the clock starts at mid-night,  the greatest peak during the weekday is in the morning when people are likely getting up and heading out for work. There are smaller peaks in the 'evening' which suggests the people have scatter leaving times.
+Looking at this plot, you can see, assuming the clock starts at mid-night,  the greatest peak during the weekday is in the morning when people are likely getting up and heading out for work. There are smaller peaks in the 'evening' (again assuming the start time is midnight) which suggests the people leaving work at scattered times.
 
 During the weekend, the activity is more spread out over the time, with a number of people getting up later and moving around later.
 
